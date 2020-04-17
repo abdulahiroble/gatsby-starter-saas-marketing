@@ -6,8 +6,17 @@ import { Container, Section } from "../global"
 const GetStarted = () => (
   <StyledSection>
     <GetStartedContainer>
-      <GetStartedTitle>Be the first to get the beta</GetStartedTitle>
-      <TryItButton>Læs mere</TryItButton>
+      <GetStartedTitle>Find Værdi af Egen Bolig</GetStartedTitle>
+      <TryItButton>
+        {" "}
+        <a
+          href="https://valuea.dk/?ref=pa"
+          target="_blank"
+          style={{ textDecoration: "none", color: "white" }}
+        >
+          Læs mere
+        </a>
+      </TryItButton>
       <Subtitle>100% gratis og uden forpligtelser for dig</Subtitle>
     </GetStartedContainer>
   </StyledSection>
