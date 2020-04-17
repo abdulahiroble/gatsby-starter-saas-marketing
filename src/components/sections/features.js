@@ -6,29 +6,27 @@ import { Section, Container } from "../global"
 const Features = () => (
   <Section id="features">
     <StyledContainer>
-      <Subtitle>Features</Subtitle>
+      <Subtitle>Fordele</Subtitle>
       <SectionTitle>Smart money management</SectionTitle>
       <FeaturesGrid>
         <FeatureItem>
-          <FeatureTitle>Notifications</FeatureTitle>
+          <FeatureTitle>Gratis</FeatureTitle>
+          <FeatureText>100% gratis og uden forpligtelser for dig</FeatureText>
+        </FeatureItem>
+        <FeatureItem>
+          <FeatureTitle>Tag stilling</FeatureTitle>
           <FeatureText>
-            Receive budget and spending alerts based on your favorite triggers.
+            Du bestemmer selv om du vil have fysisk vurdering på din adresse
           </FeatureText>
         </FeatureItem>
         <FeatureItem>
-          <FeatureTitle>Security</FeatureTitle>
+          <FeatureTitle>Modtag din vurderingsrapport</FeatureTitle>
           <FeatureText>
-            Your data is always safe with us as we use the latest security
-            protocols.
+            Vi sender dig en gratis og uforpligtende vurderingsrapport til din
+            Email
           </FeatureText>
         </FeatureItem>
-        <FeatureItem>
-          <FeatureTitle>Automation</FeatureTitle>
-          <FeatureText>
-            Create smart automated workflows and triggers for your money.
-          </FeatureText>
-        </FeatureItem>
-        <FeatureItem>
+        {/* <FeatureItem>
           <FeatureTitle>Aggregation</FeatureTitle>
           <FeatureText>
             Easily link up to 5 banks to your finance account.
@@ -43,7 +41,7 @@ const Features = () => (
           <FeatureText>
             High interest and rewards for hitting your goals.
           </FeatureText>
-        </FeatureItem>
+        </FeatureItem> */}
       </FeaturesGrid>
     </StyledContainer>
   </Section>
