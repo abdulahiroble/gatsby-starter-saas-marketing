@@ -6,37 +6,37 @@ import { Container } from "../global"
 const Footer = () => (
   <FooterWrapper id="footer">
     <FooterColumnContainer>
-      <FooterColumn>
+      {/* <FooterColumn>
         <span>Features</span>
         <ul>
           <li>Automation</li>
           <li>Rewards</li>
         </ul>
-      </FooterColumn>
-      <FooterColumn>
+      </FooterColumn> */}
+      {/* <FooterColumn>
         <span>Resources</span>
         <ul>
           <li>Compare</li>
           <li>Blog</li>
         </ul>
-      </FooterColumn>
+      </FooterColumn> */}
       <FooterColumn>
-        <span>Company</span>
+        <span>Om</span>
         <ul>
-          <li>About Us</li>
-          <li>Careers</li>
+          <li>Om os</li>
+          <li>Kontakt</li>
         </ul>
       </FooterColumn>
-      <FooterColumn>
+      {/* <FooterColumn>
         <span>Social</span>
         <ul>
           <li>LinkedIn</li>
           <li>Instagram</li>
         </ul>
-      </FooterColumn>
+      </FooterColumn> */}
     </FooterColumnContainer>
     <BrandContainer>
-      <Logo>Finance</Logo>
+      <Logo>Værdi af Bolig</Logo>
     </BrandContainer>
   </FooterWrapper>
 )
