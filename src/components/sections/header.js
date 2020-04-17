@@ -34,10 +34,19 @@ const Header = () => {
               hvor meget din bolig er værd?
             </h1>
             <h2>
-              We're building next generation personal finance tools. Sign up to
-              get early access.
+              Har du nogensinde undret dig over hvor meget din bolig er værd?{" "}
+              <br /> <br />
+              Nu har du muligheden for at vide det!
             </h2>
-            <HeaderButton>Læs mere</HeaderButton>
+            <HeaderButton>
+              <a
+                href="#"
+                target="_blank"
+                style={{ textDecoration: "none", color: "white" }}
+              >
+                Læs mere
+              </a>
+            </HeaderButton>
             {/* <HeaderForm onSubmit={handleSubmit}>
               <HeaderInput placeholder="Your email" />
               <HeaderButton>Early access</HeaderButton>

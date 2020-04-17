@@ -6,7 +6,7 @@ import { Container, Section } from "../global"
 const GetStarted = () => (
   <StyledSection>
     <GetStartedContainer>
-      <GetStartedTitle>Be the first to get the beta</GetStartedTitle>
+      <GetStartedTitle>Find Værdi af Egen Bolig</GetStartedTitle>
       <TryItButton>Læs mere</TryItButton>
       <Subtitle>100% gratis og uden forpligtelser for dig</Subtitle>
     </GetStartedContainer>
