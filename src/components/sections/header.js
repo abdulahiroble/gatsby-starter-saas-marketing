@@ -27,7 +27,7 @@ const Header = () => {
       <Container>
         <Flex>
           <HeaderTextGroup>
-            <Subtitle></Subtitle>
+            {/* <Subtitle></Subtitle> */}
             <h1>
               Vil du gerne vide,
               <br />
@@ -40,7 +40,7 @@ const Header = () => {
             </h2>
             <HeaderButton>
               <a
-                href="#"
+                href="https://valuea.dk/?ref=pa"
                 target="_blank"
                 style={{ textDecoration: "none", color: "white" }}
               >

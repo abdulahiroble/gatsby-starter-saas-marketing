@@ -7,7 +7,16 @@ const GetStarted = () => (
   <StyledSection>
     <GetStartedContainer>
       <GetStartedTitle>Find Værdi af Egen Bolig</GetStartedTitle>
-      <TryItButton>Læs mere</TryItButton>
+      <TryItButton>
+        {" "}
+        <a
+          href="https://valuea.dk/?ref=pa"
+          target="_blank"
+          style={{ textDecoration: "none", color: "white" }}
+        >
+          Læs mere
+        </a>
+      </TryItButton>
       <Subtitle>100% gratis og uden forpligtelser for dig</Subtitle>
     </GetStartedContainer>
   </StyledSection>
