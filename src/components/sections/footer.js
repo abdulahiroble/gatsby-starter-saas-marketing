@@ -36,7 +36,7 @@ const Footer = () => (
       </FooterColumn> */}
     </FooterColumnContainer>
     <BrandContainer>
-      <Logo>Værdi af Bolig</Logo>
+      <Logo>værdiafbolig.dk</Logo>
     </BrandContainer>
   </FooterWrapper>
 )
