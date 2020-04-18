@@ -43,7 +43,7 @@ const Header = () => {
             </h2>
             <HeaderButton>
               <a
-                href="https://valuea.dk/?ref=pa"
+                href="https://www.partner-ads.com/dk/klikbanner.php?partnerid=29353&bannerid=71154"
                 target="_blank"
                 style={{ textDecoration: "none", color: "white" }}
               >
