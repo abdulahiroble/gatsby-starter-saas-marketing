@@ -1,5 +1,6 @@
 import React from "react"
 import styled from "styled-components"
+import { Link } from "gatsby"
 
 import { Container } from "../global"
 
@@ -21,10 +22,14 @@ const Footer = () => (
         </ul>
       </FooterColumn> */}
       <FooterColumn>
-        <span>Om</span>
+        <span>Info</span>
         <ul>
-          <li>Om os</li>
-          <li>Kontakt</li>
+          <li>
+            <Link to="/omos" style={{ textDecoration: "none", color: "#000" }}>
+              Om os
+            </Link>
+          </li>
+          <li>{/* <Link to="/kontakt">Kontakt</Link> */}</li>
         </ul>
       </FooterColumn>
       {/* <FooterColumn>
@@ -38,6 +43,15 @@ const Footer = () => (
     <BrandContainer>
       <Logo>værdiafbolig.dk</Logo>
     </BrandContainer>
+
+    <br />
+
+    <p style={{ textAlign: "center" }}>
+      Denne hjemmeside er affiliate finansieret. Hver gang en besøgende klikker
+      på et af vores links og udfylder en formular for at vide hvor meget deres
+      bolig er værd modtager vi en kommision. Kommisionen går til vedligholdese
+      og videreudvikling af hjemmesiden.
+    </p>
   </FooterWrapper>
 )
 

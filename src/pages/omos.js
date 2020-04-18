@@ -5,9 +5,12 @@ import SEO from "../components/common/layout/seo"
 
 const NotFoundPage = () => (
   <Layout>
-    <SEO title="404: Not found" />
-    <h1>SIDE IKKE FUNDET</h1>
-    <p>Du har søgt efter en side som ikke findes.</p>
+    <SEO title="Om os" />
+    <h1>Om os</h1>
+    <p>
+      Vi har kun et fomål. Vi vil gøre det simpelt for folk at vide hvor meget
+      deres bolig er værd
+    </p>
   </Layout>
 )
 
