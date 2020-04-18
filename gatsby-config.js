@@ -1,6 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Find værdi af egen bolig`,
+    siteUrl: "https://xn--vrdiafbolig-98a.dk",
     description: `Find ud af hvor meget din bolig er værd!`,
     author: ``,
   },
@@ -28,6 +29,7 @@ module.exports = {
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
+    `gatsby-plugin-advanced-sitemap`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
