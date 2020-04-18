@@ -4,7 +4,7 @@ import styled from "styled-components"
 import { Section, Container } from "../global"
 
 const Features = () => (
-  <Section id="FORDELE">
+  <Section id="BOLIGVÆRDI">
     <StyledContainer>
       <Subtitle>Fordele</Subtitle>
       <SectionTitle>Hvad er din bolig værd?</SectionTitle>

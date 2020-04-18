@@ -15,7 +15,7 @@ import {
   ActionsContainer,
 } from "./style"
 
-const NAV_ITEMS = ["FORDELE"]
+const NAV_ITEMS = ["BOLIGVÆRDI"]
 
 export default class Navigation extends Component {
   state = {
@@ -77,7 +77,7 @@ export default class Navigation extends Component {
           <Brand>
             <Scrollspy offset={-64} item={["top"]} currentClassName="active">
               <AnchorLink href="#top" onClick={this.closeMobileMenu}>
-                Værdi af Bolig
+                værdiafbolig.dk
               </AnchorLink>
             </Scrollspy>
           </Brand>
