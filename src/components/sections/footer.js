@@ -1,6 +1,7 @@
 import React from "react"
 import styled from "styled-components"
 import { Link } from "gatsby"
+import CookieConsent from "react-cookie-consent"
 
 import { Container } from "../global"
 
@@ -29,7 +30,14 @@ const Footer = () => (
               Om os
             </Link>
           </li>
-          <li>{/* <Link to="/kontakt">Kontakt</Link> */}</li>
+          <li>
+            <Link
+              to="/cookies"
+              style={{ textDecoration: "none", color: "#000" }}
+            >
+              Cookies
+            </Link>
+          </li>
         </ul>
       </FooterColumn>
       {/* <FooterColumn>
@@ -52,6 +60,23 @@ const Footer = () => (
       bolig er værd modtager vi en kommision. Kommisionen går til vedligholdese
       og videreudvikling af hjemmesiden.
     </p>
+    <CookieConsent
+      location="bottom"
+      buttonText="Accept Cookies"
+      cookieName="myAwesomeCookieName2"
+      style={{ background: "#2B373B" }}
+      buttonStyle={{ color: "#4e503b", fontSize: "13px" }}
+      expires={150}
+    >
+      Vi bruger cookies til, at få vores hjemmeside til at virke ordentligt,
+      personalisere indhold og reklamer, tilbyde funktioner i forhold til
+      sociale medier og analysere vores traffik. Vi deler også information
+      vedrørende din brug af vores hjemmeside med analytiske samarbejdspartnere
+      <Link to="/cookies" style={{ textDecoration: "none", color: "yellow" }}>
+        {" "}
+        Læs mere om cookies
+      </Link>
+    </CookieConsent>
   </FooterWrapper>
 )
 
