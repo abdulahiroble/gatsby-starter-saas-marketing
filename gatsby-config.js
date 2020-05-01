@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Find værdi af egen bolig`,
+    title: `Find værdi af bolig`,
     siteUrl: "https://xn--vrdiafbolig-98a.dk",
     description: `Find ud af hvor meget din bolig er værd!`,
     author: ``,
