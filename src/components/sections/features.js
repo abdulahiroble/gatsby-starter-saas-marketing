@@ -7,7 +7,7 @@ const Features = () => (
   <Section id="BOLIGVÆRDI">
     <StyledContainer>
       <Subtitle>Fordele</Subtitle>
-      <SectionTitle>Hvad er din bolig værd?</SectionTitle>
+      <SectionTitle>Hvad er min bolig værd?</SectionTitle>
       <FeaturesGrid>
         <FeatureItem>
           <FeatureTitle>Gratis</FeatureTitle>
