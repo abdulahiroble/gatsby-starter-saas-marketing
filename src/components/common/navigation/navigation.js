@@ -2,6 +2,7 @@ import React, { Component } from "react"
 import AnchorLink from "react-anchor-link-smooth-scroll"
 import Scrollspy from "react-scrollspy"
 import { Menu, X } from "react-feather"
+import { Link } from "gatsby"
 
 import { Container } from "../../global"
 import {
@@ -64,6 +65,9 @@ export default class Navigation extends Component {
         {NAV_ITEMS.map(navItem => (
           <NavItem key={navItem}>{this.getNavAnchorLink(navItem)}</NavItem>
         ))}
+        <Link to="/blog" style={{ textDecoration: "none", color: "#000" }}>
+          BLOG
+        </Link>
       </Scrollspy>
     </NavListWrapper>
   )
